@@ -32,24 +32,24 @@
                 <h3 class="fw-bolder">LENGTH CONVERTER</h3>
                 <div class="col-lg-12    mb-3">
                     <h5 class="d-flex justify-content-center">Convert From:</h5>
-                    <select class="form-control mb-2 border-dark border-1 " id="inputUnit">
-                        <option value="inch">Inches</option>
-                        <option value="cm">Centimeter</option>
-                        <option value="ft">Foot</option>
-                        <option value="km">Kilometer</option>
+                    <select class="form-control mb-2 border-dark border-1 fw-bolder" id="inputUnit">
+                        <option class="fw-bold" value="inch">Inches</option>
+                        <option class="fw-bold" value="cm">Centimeter</option>
+                        <option class="fw-bold" value="ft">Foot</option>
+                        <option class="fw-bold" value="km">Kilometer</option>
                     </select>
-                    <input class="form-control border-dark border-1" type="number" name="" id="inputData" placeholder="Input here">
+                    <input class="form-control border-dark border-1 fw-bold" type="number" name="" id="inputData" placeholder="Input here">
                 </div><br>
             <div class="col-lg-12 mb-2">
                     <h5 class="d-flex justify-content-center">Convert To:</h5>
-                    <select class="form-control mb-2 border-dark border-1" id="outputUnit">
-                        <option value="">Select Unit</option>
-                        <option value="cm">Centimeter</option>
-                        <option value="inch">Inches</option>
-                        <option value="ft">Foot</option>
-                        <option value="km">Kilometer</option>
+                    <select class="form-control mb-2 border-dark border-1 fw-bolder" id="outputUnit">
+                        <option class="fw-bold" value="">Select Unit</option>
+                        <option class="fw-bold" value="cm">Centimeter</option>
+                        <option class="fw-bold" value="inch">Inches</option>
+                        <option class="fw-bold" value="ft">Foot</option>
+                        <option class="fw-bold" value="km">Kilometer</option>
                     </select>
-                    <input class="form-control border-1" type="number" id="outputData" placeholder="Result here" disabled>
+                    <input class="form-control border-1 fw-bold" type="number" id="outputData" placeholder="Result here" disabled>
             </div>
             <div class="col-12">
                     <button class="btn form-control bg-dark text-light rounded-3 border-success mb-2~" onclick="calculate()">CONVERT</button>
