@@ -60,7 +60,7 @@ else if(inputUnit.value=="ft" && outputUnit.value=="inch"){
 else if(inputUnit.value=="ft" && outputUnit.value=="ft"){
     var result = 0
     result = inputData.value * 1
-    utputData.value = result
+    outputData.value = result
 }
 else if(inputUnit.value=="ft" && outputUnit.value=="km"){
     var result = 0

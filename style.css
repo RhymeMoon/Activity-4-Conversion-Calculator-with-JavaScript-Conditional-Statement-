@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Cedarville+Cursive');
+
+* {
+    font-family: 'Tilt Neon';
+}
+body   {
+    background-image: linear-gradient(360deg, rgb(151, 151, 151) , rgb(0, 0, 0));
+    height: 100vh;
+   }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }   
+    .title {
+        color: #ff002f;
+        font-family: 'Tilt Neon';
+        margin-bottom: 40px;
+    }
+    h2, option, input{
+        text-align: center;
+
+        
+    }
+    .card {
+        background-image: linear-gradient( #1a1a1a, #ffffff);
+        border: 3px solid rgb(255, 0, 0);
+        border-radius: 10px;
+    }
+    .sub-header {
+        color: #ffffff;
+    }
+    .sub-header-2 {
+        color: #020202;
+    }
+    .btn-1 {
+        background-color: #ff002f;
+    }
+    .btn-2 {
+        background-color: #1a1a1a;
+    }
+    div [placeholder] {
+        font-family:'Courier New', Courier, monospace !important;
+    }
